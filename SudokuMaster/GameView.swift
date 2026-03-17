@@ -1,3 +1,10 @@
+//
+//  SudokuMasterApp.swift
+//  SudokuMaster
+//
+//  Created by Parv Mehta on 2026-02-06.
+//
+
 import SwiftUI
 
 struct GameView: View {
