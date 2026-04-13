@@ -2,13 +2,19 @@
 //  Score.swift
 //  SudokuMaster
 //
-//  Created by TIRTH RABADIYA on 2026-03-14.
+//  Author: Tirth Rabadiya
+//  Student ID: 000000
 //
+
 import Foundation
 
-struct Score: Identifiable, Codable {
-    var id = UUID()
+struct PlayerScore: Identifiable, Codable {
+    var id: UUID = UUID()
     var playerName: String
-    var difficulty: String
-    var time: Int
+    var difficulty: Difficulty
+    var timeSeconds: Int
+    var scoreValue: Int
+    var date: Date
+    var mistakes: Int
+    var hintsUsed: Int
 }
